@@ -1,1 +1,40 @@
+#include <stdio.h>
 
+int main(){
+    int população, pontos-turísticos;
+    float área, PIB;
+
+    printf("Bem-vindo ao super trunfo. Cadastre sua primeira carta!");
+    
+    printf("Qual o tamanho da população?:  ");
+    scanf("%d", &população);
+
+    printf("Quantos pontos turísticos?:  ");
+    scanf("%d", &pontos turísticos);
+
+    printf("Qual a área da cidade?:  ");
+    scanf("%f", &área);
+
+    printf("Qual o PIB da cidade?:  ");
+    scanf("%f", &PIB);
+
+    printf("Agora cadastre sua última carta!");
+    
+    printf("Qual o tamanho da população?:  ");
+    scanf("%d", &população);
+
+    printf("Quantos pontos turísticos?:  ");
+    scanf("%d", &pontos turísticos);
+
+    printf("Qual a área da cidade?:  ");
+    scanf("%f", &área);
+
+    printf("Qual o o PIB da cidade?:  ");
+    scanf("%f", &PIB);
+
+    printf("tamanho da população: %d - pontos turísticos: %d", tamanho da população, pontos turísticos);
+    printf("área: %f - PIB: %f", área, PIB);
+
+    return 0;
+
+}
